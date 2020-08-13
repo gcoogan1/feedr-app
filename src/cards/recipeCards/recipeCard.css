@@ -1,0 +1,108 @@
+.recipe-card {
+  width: 380px;
+  border: 1px solid #b5b5b5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  font-family: var(--primary-font);
+}
+
+.recipe-card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.meal-pic {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 100%;
+}
+
+.top-content {
+  height: 100px;
+  margin-left: 37px;
+  margin-top: 30px;
+  margin-right: 41px;
+  border-bottom: 1px solid #eeeeee;
+  overflow: hidden;
+}
+
+.top-content h4 {
+  font-size: 14px;
+  color: var(--red-color);
+}
+.top-content h2 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.bottom-content {
+  padding-top: 34px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding: 0px 37px 0px 39px;
+}
+
+li::before {
+  content: "";
+  width: 0;
+}
+
+.bottom-content img {
+  width: 24px;
+  height: 24px;
+}
+
+span {
+  margin-left: 20px;
+  position: relative;
+  bottom: 0.5em;
+}
+
+.bottom-content {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.url {
+  margin-top: 34px;
+  text-align: end;
+}
+
+.url:hover {
+  background-color: var(--yellow-color);
+}
+
+.url p {
+  color: var(--yellow-color);
+  padding: 20px 39px 20px 0px;
+}
+
+.url p:hover {
+  color: var(--white-color);
+  padding: 20px 0px 20px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.url:hover {
+  text-align: center;
+}
+
+.bottom-content .url a span {
+  margin: 0;
+  bottom: -2px;
+  position: relative;
+}
+
+.bottom-content .url a span img {
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,28 @@
+
+
+.content{
+    text-align: center;
+    color: var(--white-color);
+}
+
+.logo{
+     text-align: center;
+     font-family:  var(--secondary-font);
+     font-size: 100px;
+     font-weight: 100;
+     letter-spacing: 0px;
+}
+
+h3{
+     font-family: var(--primary-font);
+     font-size: 40px;
+     font-weight: 400;
+     letter-spacing: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {  
+     .logo{
+         font-size: 70px;
+     }  
+    
+ }
