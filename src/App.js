@@ -81,6 +81,11 @@ function App() {
     }
   };
 
+  const clickHomepage = e => {
+    setRecipeCards(false);
+    setError(false)
+  }
+
   return (
     <>
       {recipeCards === true || error === true ? (
@@ -88,7 +93,7 @@ function App() {
           <Header small>
             <div className="headerTwo">
               <div className="titleTwo">
-                <h1>FEEDER</h1>
+                <h1 onClick={clickHomepage}>FEEDER</h1>
               </div>
               <form onSubmit={getSearch}>
                 <div className="searchTwo">
