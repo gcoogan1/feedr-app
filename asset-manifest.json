@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/gcoogan1/feedr-app.git/static/css/main.493d26f4.chunk.css",
+    "main.js": "/gcoogan1/feedr-app.git/static/js/main.857029fb.chunk.js",
+    "main.js.map": "/gcoogan1/feedr-app.git/static/js/main.857029fb.chunk.js.map",
+    "runtime-main.js": "/gcoogan1/feedr-app.git/static/js/runtime-main.3fa6e933.js",
+    "runtime-main.js.map": "/gcoogan1/feedr-app.git/static/js/runtime-main.3fa6e933.js.map",
+    "static/js/2.03d0cac1.chunk.js": "/gcoogan1/feedr-app.git/static/js/2.03d0cac1.chunk.js",
+    "static/js/2.03d0cac1.chunk.js.map": "/gcoogan1/feedr-app.git/static/js/2.03d0cac1.chunk.js.map",
+    "index.html": "/gcoogan1/feedr-app.git/index.html",
+    "precache-manifest.efecbd2a95a5d82971169b02e2330cf6.js": "/gcoogan1/feedr-app.git/precache-manifest.efecbd2a95a5d82971169b02e2330cf6.js",
+    "service-worker.js": "/gcoogan1/feedr-app.git/service-worker.js",
+    "static/css/main.493d26f4.chunk.css.map": "/gcoogan1/feedr-app.git/static/css/main.493d26f4.chunk.css.map",
+    "static/js/2.03d0cac1.chunk.js.LICENSE.txt": "/gcoogan1/feedr-app.git/static/js/2.03d0cac1.chunk.js.LICENSE.txt",
+    "static/media/Cart Icon.svg": "/gcoogan1/feedr-app.git/static/media/Cart Icon.53e5c192.svg",
+    "static/media/China Flag.svg": "/gcoogan1/feedr-app.git/static/media/China Flag.e5dd14b8.svg",
+    "static/media/header.css": "/gcoogan1/feedr-app.git/static/media/Hero Image.e46d493d.png",
+    "static/media/India Flag.svg": "/gcoogan1/feedr-app.git/static/media/India Flag.65f60d91.svg",
+    "static/media/Link Icon.svg": "/gcoogan1/feedr-app.git/static/media/Link Icon.8da01e2c.svg",
+    "static/media/LinkIconTwo.svg": "/gcoogan1/feedr-app.git/static/media/LinkIconTwo.0dbf505b.svg",
+    "static/media/Mexico Flag.svg": "/gcoogan1/feedr-app.git/static/media/Mexico Flag.a66f6c45.svg",
+    "static/media/Path 1.svg": "/gcoogan1/feedr-app.git/static/media/Path 1.b2e6e0a6.svg",
+    "static/media/Time Icon.svg": "/gcoogan1/feedr-app.git/static/media/Time Icon.b9751089.svg",
+    "static/media/User Icon.svg": "/gcoogan1/feedr-app.git/static/media/User Icon.6800e668.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fa6e933.js",
+    "static/js/2.03d0cac1.chunk.js",
+    "static/css/main.493d26f4.chunk.css",
+    "static/js/main.857029fb.chunk.js"
+  ]
+}
