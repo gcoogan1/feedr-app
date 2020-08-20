@@ -73,14 +73,15 @@
   padding-bottom: 20px;
   list-style-type: none;
   position: relative;
+}
+
+.meals li {
   list-style-position: inside;
   cursor: pointer;
   line-height: 30px;
   opacity: .7;
   padding: 0;
 }
-
-
 
 .meals li:hover{
   text-decoration: underline;
