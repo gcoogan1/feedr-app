@@ -19,7 +19,7 @@ const RecipeCard = ({ title, source, ing, serving, time, url, image }) => {
         ></div>
         <div className="meal-content">
           <div className="top-content">
-            <h4 className="author">{source}</h4>
+            <h4 className="author">{source.toUpperCase()}</h4>
             <h2 className="meal-name">{title}</h2>
           </div>
           <div className="bottom-content">

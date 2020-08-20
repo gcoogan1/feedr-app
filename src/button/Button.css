@@ -23,7 +23,12 @@ img {
 
 @media (min-width: 320px) and (max-width: 767px) {
   button {
-    width: 50px;
+    width: 60px;
     height: 70px;
+  }
+  img {
+    width: 22px;
+    height: 19px;
+    color: yellow;
   }
 }

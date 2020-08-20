@@ -5,6 +5,8 @@
   height: 514px;
   /* display: flex; */
   display: grid;
+
+  grid-template-rows: 50px 50px auto;
   /*grid-temp-row: 6 1fr*/
   /*grid-temp-co: 3 1fr*/
 }
@@ -13,8 +15,7 @@
   height: 100px;
   width: 155px;
   text-align: center;
-  grid-row-start: 1;
-  grid-row-end: 3;
+ 
   /* position: absolute; */
   grid-column-start: 2;
   grid-column-end: 2;
@@ -26,6 +27,14 @@
   height: 100%;
 }
 
+/* height: 464px;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  
+  
+  -flag  grid-row-start: 1;
+  grid-row-end: 3;*/
+
 .text {
   border: 2px solid rgba(0, 0, 0);
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -34,15 +43,13 @@
   background-clip: padding-box;
   height: 464px;
   border-radius: 20px;
-  grid-row-start: 2;
-  grid-row-end: 6;
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
 
 .country {
-  margin-top: 80px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +57,7 @@
 .meals {
   width: 100%;
   display: flex;
-  margin-top: 50px;
+  margin-top: 40px;
   justify-content: center;
 }
 
@@ -58,10 +65,12 @@ ol {
   word-break: break-all;
   margin: 0;
   padding: 0;
+  
 }
 
 ol li {
   counter-increment: list;
+  padding-bottom: 20px;
   list-style-type: none;
   position: relative;
 }
@@ -70,12 +79,13 @@ li {
   list-style-position: inside;
   cursor: pointer;
   line-height: 30px;
+  opacity: 70%;
   padding: 0;
 }
 
 li:hover{
   text-decoration: underline;
-  font-weight: bold;
+  opacity: 100%;
 }
 
 

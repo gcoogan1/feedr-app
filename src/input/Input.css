@@ -28,14 +28,16 @@ input::placeholder{
 
 @media (min-width: 320px) and (max-width: 767px) {  
     input{
-        width: 302px;
+        width: 330px;
         height: 70px;
         background-position: 0px;
-        text-indent: 60px;
+        text-indent: 65px;
         font-size: 24px;
+        background-image: url('../assets/icons/search-mobile.png');
+        background-position: 20px 24px;
     }  
     input::placeholder{
-        font-size: 24px;
+        font-size: 20px;
     }
    
 }

@@ -22,26 +22,33 @@ function App() {
   const [flagMeals, setFlagMeals] = useState({ countries });
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("");
-  const [inspiration, setInspiration] = useState(false);
+  const [inspiration, setInspiration] = useState(true);
   const [recipeCards, setRecipeCards] = useState(false);
   const [error, setError] = useState(false);
 
 
+ 
+
   useEffect(() => {
     const getRecipes = async () => {
+     
       const response = await fetch(
         `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
       );
       const data = await response.json();
       setRecipes(data.hits);
       console.log(data);
+      window.scrollTo(0, 0);
       if (data.hits.length === 0 && query !== "") {
         setError(true);
         setRecipeCards(false);
       }
     };
     getRecipes();
+    
   }, [query]);
+
+
 
   
   //Functions
@@ -58,31 +65,35 @@ function App() {
     setSearch("");
   };
 
+  const ref = React.createRef();
+
   const findInspiration = () => {
     setInspiration(true);
     setError(false);
     setRecipeCards(false);
     console.log(flagMeals.countries);
+    ref.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    })
+  
   };
 
   const mealSearch = e => {
     setSearch(e.target.id);
     setQuery(e.target.id);
+    setSearch("");
     setRecipeCards(true);
     setInspiration(false);
     setError(false);
     window.scrollTo(0, 0);
   };
 
-  //--**Scroll to FlagCards**--//
-  const scrollTo = ref => {
-    if (ref /* + other conditions */) {
-      ref.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  };
+
 
   const clickHomepage = e => {
     setRecipeCards(false);
+    setInspiration(true)
     setError(false)
   }
 
@@ -93,7 +104,7 @@ function App() {
           <Header small>
             <div className="headerTwo">
               <div className="titleTwo">
-                <h1 onClick={clickHomepage}>FEEDER</h1>
+                <h1 onClick={clickHomepage}>Feedr</h1>
               </div>
               <form onSubmit={getSearch}>
                 <div className="searchTwo">
@@ -168,7 +179,7 @@ function App() {
 
       {inspiration === true ? (
         <>
-          <div ref={scrollTo} className="flagCards">
+          <div ref={ref} className="flagCards">
             <div className="flagContainer">
               <div className="top">
                 <h1>Most Searched Recipes</h1>
