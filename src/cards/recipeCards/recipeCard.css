@@ -74,6 +74,7 @@ span {
 .bottom-content ul li{
   cursor: default;
   opacity: 100%;
+  line-height: 30px;
 }
 
 .bottom-content ul li:hover{

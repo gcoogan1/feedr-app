@@ -61,35 +61,34 @@
   justify-content: center;
 }
 
-ol {
+.meals ol {
   word-break: break-all;
   margin: 0;
   padding: 0;
   
 }
 
-ol li {
+.meals ol li {
   counter-increment: list;
   padding-bottom: 20px;
   list-style-type: none;
   position: relative;
-}
-
-li {
   list-style-position: inside;
   cursor: pointer;
   line-height: 30px;
-  opacity: 70%;
+  opacity: .7;
   padding: 0;
 }
 
-li:hover{
+
+
+.meals li:hover{
   text-decoration: underline;
-  opacity: 100%;
+  opacity: 1;
 }
 
 
-ol li:before {
+.meals ol li:before {
   color: rgba(0, 0, 0, 0.3);
   content: counter(list) ".";
   left:-40px;
