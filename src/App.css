@@ -62,10 +62,9 @@
 .flagContainer {
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 60px;
   padding-bottom: 120px;
   width: 100%;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .middle {
@@ -82,7 +81,6 @@
   margin-top: 61px;
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 30px;
   justify-content: center;
 }
 

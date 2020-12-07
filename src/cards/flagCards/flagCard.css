@@ -5,7 +5,7 @@
   height: 514px;
   /* display: flex; */
   display: grid;
-
+  margin: 20px;
   grid-template-rows: 50px 50px auto;
   /*grid-temp-row: 6 1fr*/
   /*grid-temp-co: 3 1fr*/
