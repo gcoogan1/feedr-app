@@ -9,12 +9,15 @@ import countries from "./inspirDatabase/inspirDatabase";
 import RecipeCard from "./cards/recipeCards/recipeCard";
 import FlagCard from "./cards/flagCards/flagCard";
 
+
+
 function App() {
+
 
 
   //API
   const APP_ID = "455c883f";
-  const APP_KEY = "30233125e8b15498f90de9425967fafc";
+  const APP_KEY = process.env.REACT_APP_API_KEY;
 
 
   //State
